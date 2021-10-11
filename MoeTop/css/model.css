@@ -1,0 +1,78 @@
+
+.topButton {
+    display: none;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    z-index: 10000;
+    transition: all .5s ease-in-out;
+    opacity: 1;
+}
+.back-to-top.animate {
+    animation: floatY 2s linear infinite;
+}
+.back-to-top:hover{
+    animation-play-state:paused;
+    -webkit-animation-play-state:paused;
+}
+
+@keyframes floatX {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    50% {
+        -webkit-transform: translateX(-6px);
+        -ms-transform: translateX(-6px);
+        transform: translateX(-6px)
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+@keyframes floatY {
+    0% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    50% {
+        -webkit-transform: translateY(-6px);
+        -ms-transform: translateY(-6px);
+        transform: translateY(-6px)
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+/*约会大作战*/
+
+#kaguya1.animate,#kaguya2.animate,#kaguya3.animate,#kotori1.animate ,#kotori2.animate,#kotori3.animate,#kotori4.animate,#kurumi1.animate,#kurumi2.animate,#maria1.animate,#maria2.animate,#maria3.animate,#marina1.animate,#marina2.animate,#miku1.animate,#miku2.animate,#miku3.animate,#rinne1.animate,#rinne2.animate,#rinne3.animate,#rinne4.animate,#tohka1.animate,#tohka2.animate,#tohka3.animate,#yoshino1.animate,#yoshino2.animate,#yoshino3.animate,#yuduru1.animate,#yuduru2.animate,#yuduru3.animate {
+	 animation: floatX 2s linear infinite;
+}
+#kaguya1,#kaguya2,#kaguya3,#kotori1,#kotori2,#kotori3,#kotori4,#kurumi1,#kurumi2,#maria1,#maria2,#maria3,#marina1,#marina2,#miku1,#miku2,#miku3,#rinne1,#rinne2,#rinne3,#rinne4,#tohka1,#tohka2,#tohka3,#yoshino1,#yoshino2,#yoshino3,#yuduru1,#yuduru2,#yuduru3 {
+    bottom: -0px;
+    right: -5px;
+    max-height: 420px;
+}
+#kaguya1:hover,#kaguya2:hover,#kaguya3:hover,#kotori1:hover,#kotori2:hover,#kotori3:hover,#kotori4:hover,#kurumi1:hover,#kurumi2:hover,#maria1:hover,#maria2:hover,#maria3:hover,#marina1:hover,#marina2:hover,#miku1:hover,#miku2:hover,#miku3:hover,#rinne1:hover,#rinne2:hover,#rinne3:hover,#rinne4:hover,#tohka1:hover,#tohka2:hover,#tohka3:hover,#yoshino1:hover,#yoshino2:hover,#yoshino3:hover,#yuduru1:hover,#yuduru2:hover,#yuduru3:hover {
+    right:0;
+    bottom:0;
+    animation-play-state:paused;
+    -webkit-animation-play-state:paused;
+}
+/*#kaguya1.hidetotop,#kaguya2.hidetotop,#kaguya3.hidetotop,#kotori1.hidetotop,#kotori2.hidetotop,#kotori3.hidetotop,#kotori4.hidetotop,#kurumi1.hidetotop,#kurumi2.hidetotop,#maria1.hidetotop,#maria2.hidetotop,#maria3.hidetotop,#marina1.hidetotop,#marina2.hidetotop,#miku1.hidetotop,#miku2.hidetotop,#miku3.hidetotop,#rinne1.hidetotop,#rinne2.hidetotop,#rinne3.hidetotop,#rinne4.hidetotop,#tohka1.hidetotop,#tohka2.hidetotop,#tohka3.hidetotop,#yoshino1.hidetotop,#yoshino2.hidetotop,#yoshino3.hidetotop,#yuduru1.hidetotop,#yuduru2.hidetotop,#yuduru3.hidetotop {
+    right:-100%;
+}*/
